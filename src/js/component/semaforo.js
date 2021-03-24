@@ -10,10 +10,10 @@ export class Semaforo extends React.Component {
 
 	render() {
 		const redSelected = this.state.clickedLight == "red" ? "selected" : "";
-		const yellowSelected =
-			this.state.clickedLight == "yellow" ? "selected" : "";
 		const greenSelected =
 			this.state.clickedLight == "green" ? "selected" : "";
+		const yellowSelected =
+			this.state.clickedLight == "yellow" ? "selected" : "";
 
 		console.log(this.state);
 		return (
