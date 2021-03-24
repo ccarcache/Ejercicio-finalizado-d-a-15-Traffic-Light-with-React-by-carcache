@@ -18,8 +18,8 @@ export class Semaforo extends React.Component {
 		console.log(this.state);
 		return (
 			<div>
-				<div id="trafficTop"></div>
-				<div id="trafficBody">
+				<div id="Base"></div>
+				<div id="Case">
 					<div
 						className={"red light m-1 " + redSelected}
 						onClick={() =>
