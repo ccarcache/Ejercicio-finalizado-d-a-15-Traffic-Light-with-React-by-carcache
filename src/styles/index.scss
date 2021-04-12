@@ -1,9 +1,13 @@
+body{
+    background: whitesmoke;
+}
+// Aquí ubicamos las dimensiones de las luces.
 .light{
-    width: 52px;
-    height: 53px;
+    width: 62px;
+    height: 63px;
     margin: auto;
-    border-radius: 50%;
-    padding: 4px;
+    border-radius: 80%;
+    padding: 6px;
     
     cursor: pointer;
     &.red { background-color: red;}
@@ -11,22 +15,21 @@
     &.green { background-color: green;}
     &.selected { box-shadow: #f18a02 20px 20px 50px 10px;}
 } 
-//Aqui podemos hacer el palo del semaforo
+//Representa el asta donde se ancla del semáforo.
 #Base {
-    background-color: black;
+    background-color: rgb(101, 28, 170);
     width: 15px;
-    height: 50px;
-    margin-left: 80px;
+    height: 80px;
+    margin-inline: 100px;
 }
-//el case es el fondo del semaforo 
+//Case representa el fondo del semáforo.
 #Case {
     background-color: rgb(233, 174, 13);
-     width: 60px;
-    height: 185px;
-    border-color: black;
-    border-radius: 10px;
+    width: 104px;
+    height: 230px;
+    border-color: red;
+    border-radius: 20px;
     margin-left: 50px;
     padding: 10px;
-   
 }
 
